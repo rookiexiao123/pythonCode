@@ -1,7 +1,13 @@
 1.修改数据集的数量
+/cenermask2/centermask/defaults.py
 
 2.修改数据集的类别
+/detectron2/data/datasets/builtin_meta.py
 
-3.修改mask的输入
+3.修改数据集路径
+/detectron2/data/datasets/builtin.py
 
-4.
+4.修改mask的输入
+~/anaconda3/envs/sotr/lib/python3.7/site-packages/detectron2/structures/mask.py
+
+5.
