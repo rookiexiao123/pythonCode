@@ -13,3 +13,5 @@
 
 5.记录多少个iter输出打印
 /detectron2/engine/defaults.py  1处
+
+6.换数据集
