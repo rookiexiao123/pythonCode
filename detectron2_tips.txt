@@ -9,7 +9,7 @@
 /detectron2/data/datasets/builtin.py  
 
 4.修改mask的输入
-~/anaconda3/envs/sotr/lib/python3.7/site-packages/detectron2/structures/mask.py 1处
+/detectron2/data/datasets/coco.py 1处
 
 5.记录多少个iter输出打印
 /detectron2/engine/defaults.py  1处
