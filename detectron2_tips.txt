@@ -1,13 +1,15 @@
 1.修改数据集的数量
-/cenermask2/centermask/defaults.py
+/cenermask2/centermask/defaults.py  1处
+/detectron2/config/defaults.py  3处
 
 2.修改数据集的类别
-/detectron2/data/datasets/builtin_meta.py
+/detectron2/data/datasets/builtin_meta.py 1处
 
 3.修改数据集路径
-/detectron2/data/datasets/builtin.py
+/detectron2/data/datasets/builtin.py  
 
 4.修改mask的输入
-~/anaconda3/envs/sotr/lib/python3.7/site-packages/detectron2/structures/mask.py
+~/anaconda3/envs/sotr/lib/python3.7/site-packages/detectron2/structures/mask.py 1处
 
-5.
+5.记录多少个iter输出打印
+/detectron2/engine/defaults.py  1处
